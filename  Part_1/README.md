@@ -14,7 +14,7 @@
 
 для определения величины интервала (*h*) можно использовать **формулу Стерджеса**:
 
-![formula](https://render.githubusercontent.com/render/math?math=h-\dfrac{x_{\max}-x_{\min{-}}}{1+\log_{2}n})
+![formula](https://render.githubusercontent.com/render/math?math=h-\dfrac{x_{\max}-x_{\min}{1+\log_{2}n})
 
 *m* = 1 + log(n, 2) - число интерваллов
 
