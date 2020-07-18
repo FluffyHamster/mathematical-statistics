@@ -14,7 +14,7 @@
 
 для определения величины интервала (*h*) можно использовать **формулу Стерджеса**:
 
-![h=\dfrac{x_{\max}-x_{\min}{1+\log_{2}n}](https://render.githubusercontent.com/render/math?math=h%3D%5Cdfrac%7Bx_%7B%5Cmax%7D-x_%7B%5Cmin%7D%7B1%2B%5Clog_%7B2%7Dn%7D) 
+![h = \dfrac{x_{\max} - x_{\min}}{1 + \log_{2}n}](https://render.githubusercontent.com/render/math?math=h%20%3D%20%5Cdfrac%7Bx_%7B%5Cmax%7D%20-%20x_%7B%5Cmin%7D%7D%7B1%20%2B%20%5Clog_%7B2%7Dn%7D) 
 
 ![m=1+\log_{2}n](https://render.githubusercontent.com/render/math?math=m%3D1%2B%5Clog_%7B2%7Dn) - число интерваллов
 
@@ -26,7 +26,7 @@
 
 Одним из способов обработки вариационного ряда является построение **эмперической (статистической) функции распределения** - функция, определяющая для каждого значения *x* частость события {*X* < *x*}:
 
-![F^{\ast}_{n}\left(x\right)=p^{\ast}\left\{X<x\right\}=\dfrac{n_{\x}}{n}](https://render.githubusercontent.com/render/math?math=F%5E%7B%5Cast%7D_%7Bn%7D%5Cleft(x%5Cright)%3Dp%5E%7B%5Cast%7D%5Cleft%5C%7BX%3Cx%5Cright%5C%7D%3D%5Cdfrac%7Bn_%7B%5Cx%7D%7D%7Bn%7D)
+![F^{\ast}_{n}\left(x\right)=p^{\ast}\left\{X < x\right\}=\dfrac{n_{\x}}{n}](https://render.githubusercontent.com/render/math?math=F%5E%7B%5Cast%7D_%7Bn%7D%5Cleft(x%5Cright)%3Dp%5E%7B%5Cast%7D%5Cleft%5C%7BX%20%3C%20x%5Cright%5C%7D%3D%5Cdfrac%7Bn_%7B%5Cx%7D%7D%7Bn%7D)
 
 где *n* - объем выборки, ![n_{\x}](https://render.githubusercontent.com/render/math?math=n_%7B%5Cx%7D) - число наблюдений, меньших *x*.
 
