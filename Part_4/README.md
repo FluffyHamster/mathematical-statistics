@@ -22,3 +22,10 @@
 
 *example_3* - пример
 
+**Для оценкивероятности успеха прибольшом числе испытаний Бернули** доверительный интервал, который с надежностью ![\gamma](https://render.githubusercontent.com/render/math?math=%5Cgamma) покрывает оцениваемый параметр *p* при больших значениях *n* (порядка сотен), имеет вид ![(p_{1}; p_{2})](https://render.githubusercontent.com/render/math?math=(p_%7B1%7D%3B%20p_%7B2%7D)), где
+
+![p_{1} = p^{\ast} - t \cdot \sqrt{\dfrac{p^{\ast}(1 - p^{\ast})}{n}}](https://render.githubusercontent.com/render/math?math=p_%7B1%7D%20%3D%20p%5E%7B%5Cast%7D%20-%20t%20%5Ccdot%20%5Csqrt%7B%5Cdfrac%7Bp%5E%7B%5Cast%7D(1%20-%20p%5E%7B%5Cast%7D)%7D%7Bn%7D%7D) и ![p_{2} = p^{\ast} + t \cdot \sqrt{\dfrac{p^{\ast}(1 - p^{\ast})}{n}}](https://render.githubusercontent.com/render/math?math=p_%7B2%7D%20%3D%20p%5E%7B%5Cast%7D%20%2B%20t%20%5Ccdot%20%5Csqrt%7B%5Cdfrac%7Bp%5E%7B%5Cast%7D(1%20-%20p%5E%7B%5Cast%7D)%7D%7Bn%7D%7D)
+
+где ![p^{\ast} = \dfrac{n_{A}}{n}](https://render.githubusercontent.com/render/math?math=p%5E%7B%5Cast%7D%20%3D%20%5Cdfrac%7Bn_%7BA%7D%7D%7Bn%7D) - относительная частота события *A*; *t* определяется из равенства ![2\Phi_{0}(t) = \gamma](https://render.githubusercontent.com/render/math?math=2%5CPhi_%7B0%7D(t)%20%3D%20%5Cgamma)
+
+
